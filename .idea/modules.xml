@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/meter-10HS.iml" filepath="$PROJECT_DIR$/meter-10HS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Meter10HS-Java.iml" filepath="$PROJECT_DIR$/.idea/Meter10HS-Java.iml" />
     </modules>
   </component>
 </project>
