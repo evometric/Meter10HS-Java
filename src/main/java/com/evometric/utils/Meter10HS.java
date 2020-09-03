@@ -6,7 +6,8 @@ package com.evometric.utils;
  */
 public class Meter10HS
 {
-    public double equation2(int millivolts){
+    public double equation2(int millivolts)
+    {
         throw new UnsupportedOperationException("Not Yet Implemented");
     }
 
@@ -15,7 +16,12 @@ public class Meter10HS
      * @param millivolts
      * @return
      */
-    public double equation4(int millivolts){
-        throw new UnsupportedOperationException("Not Yet Implemented");
+    public double equation4(int millivolts)
+    {
+        //equation
+        return ((2.97 * Math.pow(10,-9)) * (Math.pow(millivolts,3))) -
+                ((7.37 * Math.pow(10,-6)) * (Math.pow(millivolts,2))) +
+                ((6.69 * Math.pow(10,-3)) * (millivolts)) - 1.92;
+
     }
 }
